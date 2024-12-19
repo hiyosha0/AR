@@ -1,5 +1,6 @@
 import Marquee from "react-fast-marquee";
 import BentoCard from "./BentoCard";
+import AnimatedText from "./AnimatedText";
 
 const Wearbles = () => {
   return (
@@ -8,19 +9,24 @@ const Wearbles = () => {
         <div className=" mt-3 mb-3">
           <Marquee speed={20}>
             <div className=" flex">
-              <h1 className=" p-1 font-general text-1xl bg-yellow-300 text-black">
+              <h1 className=" font-bold p-1 font-general text-1xl bg-yellow-300 text-black">
                 AR Wearbles will replace typical touch-screens and other
-                culterel ways of human interation with computers
+                culturel ways of human interation with computers
               </h1>
-              <h1 className=" p-1 font-general text-1xl bg-yellow-300 text-black">
+              <h1 className=" p-1  font-bold font-general text-1xl bg-yellow-300 text-black">
                 AR Wearbles will replace typical touch-screens and other
-                culterel ways of human interation with computers
+                culturel ways of human interation with computers
               </h1>
             </div>
           </Marquee>
         </div>
-        <h1 className=" font-zentry text-6xl md:text-8xl mb-7">AR Wearbles</h1>
-        <p className=" font-general leading-8">
+        <div className=" flex justify-start p-0 mb-4 mt-4 ">
+          <AnimatedText
+            title={"AR Wearbles"}
+            containerClass={" flex justify-start p-0 mb-4 mt-4"}
+          />
+        </div>
+        <p className=" p-4 font-general leading-8">
           Ar werables will replace our current interaction with computers and
           other elctronic devices. they have ability to capture human signals
           directly and give feedbacks acurately. it only takes our haptics to
@@ -32,7 +38,7 @@ const Wearbles = () => {
         </p>
       </div>
 
-      <div className=" p-10">
+      <div className=" p-10 ">
         <BentoCard
           description={
             "ar wearables can upgrade  our interaction with computers to a whole new level. because of the benifits that AR wearables can provide for society, leading companies like Apple, Google, and Microsoft are investing in AR technology based wearables."

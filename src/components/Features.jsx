@@ -78,14 +78,14 @@ const Features = () => {
             <BentoCard
               src="videos/feature-3.mp4"
               title="AR Maps"
-              description="when maps are using ar it can actually be used to navigate"
+              description="when maps are using ar it can actually simulate your way to destination. All you need to do is point out the camera"
             />
           </BentoTilt>
           <BentoTilt className=" bento-tilt_1 me-14 md:col-span-1 md:me-0">
             <BentoCard
               src="videos/feature-4.mp4"
               title="AR Maps"
-              description="when maps are using ar it can actually be used to navigate"
+              description="As an improvement of Ar based maps and navigation we can point out Google maps and its AR features. Ar maps are also capable of providing geometry information to the user"
             />
           </BentoTilt>
           <BentoTilt className=" bento-tilt_2 ">
