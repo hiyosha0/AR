@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useRef } from "react";
 import AnimatedTitle from "./AnimatedText";
 import gsap from "gsap";
@@ -45,20 +46,20 @@ const Story = () => {
           <AnimatedTitle
             title={"The story of <b>A</b>ugmented <b>R</b>eality"}
             sectionId="#story"
-            containerClass=" mt-5 mb-6 pointer-events-none mix-blend-difference relative z-10 "
+            containerClass=" mt-5 mb-7 pointer-events-none mix-blend-difference relative z-10 "
           />
-          <div className=" story-img-container">
-            <div className=" story-img-mask">
-              <div className=" story-img-content">
+          <div className=" mt-1">
+            <div className="">
+              <div className=" mt-6 ">
                 <img
-                  ref={frameRef}
-                  onMouseLeave={handleMouseLeave}
-                  onMouseUp={handleMouseLeave}
-                  onMouseEnter={handleMouseLeave}
-                  onMouseMove={handleMouseMove}
-                  src="/img/infoGraphic01.jpg"
+                  src="/img/1.png"
                   alt="entrance"
-                  className=" object-contain "
+                  className=" ml-2 mr-2 object-contain "
+                />
+                <img
+                  src="/img/2.png"
+                  alt="entrance"
+                  className="ml-2 mr-2 object-contain "
                 />
               </div>
             </div>
