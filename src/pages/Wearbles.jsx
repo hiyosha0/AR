@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
-import BentoCard from "./BentoCard";
-import AnimatedText from "./AnimatedText";
+import BentoCard from "../components/BentoCard";
+import AnimatedText from "../components/AnimatedText";
 
 const Wearbles = () => {
   return (
