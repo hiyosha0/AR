@@ -60,12 +60,14 @@ const Navbar = () => {
         <nav className=" flex size-full items-center justify-between p-4">
           <div className=" flex items-center gap-7">
             <img src="/img/logo.png" alt="logo" className=" w-10" />
-            <Button
-              id={"product-button"}
-              title={"Product"}
-              rightIcon={<TiLocationArrow />}
-              containerClass=" bg-blue-50 md:flex hidden items-center justify-center gap-1 "
-            />
+            <a href="/">
+              <Button
+                id={"product-button"}
+                title={"Home"}
+                rightIcon={<TiLocationArrow />}
+                containerClass=" bg-blue-50 md:flex hidden items-center justify-center gap-1 "
+              />
+            </a>
           </div>
           <div className=" flex h-full items-center  ">
             <div className=" hidden md:block">

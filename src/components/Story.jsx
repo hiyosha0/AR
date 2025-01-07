@@ -48,18 +48,18 @@ const Story = () => {
             sectionId="#story"
             containerClass=" mt-5 mb-7 pointer-events-none mix-blend-difference relative z-10 "
           />
-          <div className=" mt-1">
+          <div className=" mt-1 shadow-lg ">
             <div className="">
-              <div className=" mt-6 ">
+              <div className=" flex flex-col justify-center items-center">
                 <img
                   src="/img/1.png"
                   alt="entrance"
-                  className=" ml-2 mr-2 object-contain "
+                  className=" w-[800px] ml-2 mr-2 object-contain "
                 />
                 <img
                   src="/img/2.png"
                   alt="entrance"
-                  className="ml-2 mr-2 object-contain "
+                  className=" w-[800px] ml-2 mr-2 object-contain "
                 />
               </div>
             </div>
