@@ -42,10 +42,16 @@ const Games = () => {
           <p className="  w-[500px]   font-general">
             <span className=" text-lg font-semibold"> Do You Know ? </span>{" "}
             <br />
-            Augmented reality based wearables now capable of providing 100%
-            hands free human interaction with computers and simmilar electronic
-            devices. Insted of scrolling through a screen, AR can let you
-            discover
+            Augmented Reality (AR) based gaming enhances the real-world
+            environment by overlaying digital information and virtual objects
+            onto the player view. This technology allows for immersive and
+            interactive experiences, where players can interact with both
+            physical and virtual elements seamlessly. AR games often use devices
+            like smartphones, tablets, or AR glasses to blend the real and
+            virtual worlds, creating unique gameplay experiences that are
+            engaging and innovative. By integrating real-world surroundings with
+            game elements, AR gaming offers a dynamic and captivating way to
+            play, making it a rapidly growing trend in the gaming industry.
           </p>
           <p className="  w-[500px]   font-general">
             <span className=" text-lg font-semibold">
@@ -53,11 +59,10 @@ const Games = () => {
               Why They are so poweful ?{" "}
             </span>{" "}
             <br />
-            They are using a technology called XR objects. it can actually make
-            every real-world object interactive.this technology can upgrade user
-            experience of AR wearables to a whole different level.further with
-            the help of advanced Ai models such as Google Gemini,AR wearables
-            are capable of anything
+            AR gaming provides a highly immersive experience by blending digital
+            elements with the real world. and players have access to interact
+            with both physical and virtual elements seamlessly. AR games often
+            enable a dynamic and captivating gameplay
           </p>
         </div>
         <div className=" flex flex-col justify-center items-center">
