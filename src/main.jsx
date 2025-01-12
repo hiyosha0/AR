@@ -6,6 +6,7 @@ import Wearables from "./pages/Wearbles.jsx";
 import Games from "./pages/Games.jsx";
 import AboutPage from "./pages/About-page.jsx";
 import Maps from "./pages/Maps.jsx";
+import Refrences from "./components/Refrences.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/ar games" element={<Games />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/ar Maps" element={<Maps />} />
+      <Route path="/references" element={<Refrences />} />
     </Routes>
   </BrowserRouter>
 );

@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const Footer = () => {
   return (
     <footer className=" w-screen bg-violet-300 py-4 text-black">
@@ -12,8 +14,11 @@ const Footer = () => {
             className=" w-[80px] shadow-xl rounded-md"
           />
         </div>
-        <div className=" font-circular-web flex justify-center gap-4 md:justify-start">
+        <div className=" font-circular-web flex flex-col justify-center gap-4 md:justify-start">
           <p>student Id:74004786</p>
+          <a href="/references">
+            <Button title={"References"}>References</Button>
+          </a>
         </div>
       </div>
     </footer>
